@@ -23,6 +23,10 @@ set(ENGINE_SRC_FILES
     ${CMAKE_CURRENT_LIST_DIR}/src/engine/shader.cpp
     ${CMAKE_CURRENT_LIST_DIR}/src/engine/texture.cpp
     ${CMAKE_CURRENT_LIST_DIR}/src/engine/window.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/engine/light/light.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/engine/gameobject.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/engine/scene.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/engine/fbo.cpp
     ${CMAKE_CURRENT_LIST_DIR}/src/engine/geometry/cube.cpp
     ${CMAKE_CURRENT_LIST_DIR}/src/engine/geometry/geometry.cpp
     ${CMAKE_CURRENT_LIST_DIR}/src/engine/geometry/quad.cpp
@@ -37,6 +41,10 @@ set(ENGINE_HEADER_FILES
     ${CMAKE_CURRENT_LIST_DIR}/include/engine/shader.hpp
     ${CMAKE_CURRENT_LIST_DIR}/include/engine/texture.hpp
     ${CMAKE_CURRENT_LIST_DIR}/include/engine/window.hpp
+    ${CMAKE_CURRENT_LIST_DIR}/include/engine/light/light.hpp
+    ${CMAKE_CURRENT_LIST_DIR}/include/engine/gameobject.hpp
+    ${CMAKE_CURRENT_LIST_DIR}/include/engine/scene.hpp
+    ${CMAKE_CURRENT_LIST_DIR}/include/engine/fbo.hpp
     ${CMAKE_CURRENT_LIST_DIR}/include/engine/geometry/cube.hpp
     ${CMAKE_CURRENT_LIST_DIR}/include/engine/geometry/geometry.hpp
     ${CMAKE_CURRENT_LIST_DIR}/include/engine/geometry/quad.hpp

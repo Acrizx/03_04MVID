@@ -23,6 +23,7 @@ struct Texture2 {
 
 class Mesh {
 public:
+  Mesh();
   Mesh(std::vector<Vertex> vertices, std::vector<uint32_t> indices, std::vector<Texture2> textures);
 
   void render(const Shader& shader) const;

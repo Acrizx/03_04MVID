@@ -2,6 +2,10 @@
 #include "engine/shader.hpp"
 #include <glad/glad.h>
 
+Mesh::Mesh()
+{
+}
+
 Mesh::Mesh(std::vector<Vertex> vertices, std::vector<uint32_t> indices,
   std::vector<Texture2> textures): vertices_(vertices), indices_ (indices),
   textures_ (textures) {
