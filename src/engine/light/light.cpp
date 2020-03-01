@@ -36,5 +36,5 @@ void Light::render(const Shader& shader, int shinness) const {
 	shader.set("light.diffuse", _diffuse);
 	shader.set("light.specular", _specular);
 	shader.set("material.shininess", shinness);
-	shader.set("lightSpaceMatrix", _spacematrix);
+	//shader.set("lightSpaceMatrix", _spacematrix);
 }

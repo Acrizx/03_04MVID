@@ -24,7 +24,11 @@ set(ENGINE_SRC_FILES
     ${CMAKE_CURRENT_LIST_DIR}/src/engine/texture.cpp
     ${CMAKE_CURRENT_LIST_DIR}/src/engine/window.cpp
     ${CMAKE_CURRENT_LIST_DIR}/src/engine/light/light.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/src/engine/gameobject.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/engine/gameobject/gameobject.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/engine/gameobject/nave.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/engine/gameobject/asteroide.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/engine/gameobject/bala.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/engine/gameobject/luna.cpp
     ${CMAKE_CURRENT_LIST_DIR}/src/engine/scene.cpp
     ${CMAKE_CURRENT_LIST_DIR}/src/engine/fbo.cpp
     ${CMAKE_CURRENT_LIST_DIR}/src/engine/geometry/cube.cpp
@@ -42,7 +46,11 @@ set(ENGINE_HEADER_FILES
     ${CMAKE_CURRENT_LIST_DIR}/include/engine/texture.hpp
     ${CMAKE_CURRENT_LIST_DIR}/include/engine/window.hpp
     ${CMAKE_CURRENT_LIST_DIR}/include/engine/light/light.hpp
-    ${CMAKE_CURRENT_LIST_DIR}/include/engine/gameobject.hpp
+    ${CMAKE_CURRENT_LIST_DIR}/include/engine/gameobject/gameobject.hpp
+    ${CMAKE_CURRENT_LIST_DIR}/include/engine/gameobject/nave.hpp
+    ${CMAKE_CURRENT_LIST_DIR}/include/engine/gameobject/asteroide.hpp
+    ${CMAKE_CURRENT_LIST_DIR}/include/engine/gameobject/bala.hpp
+    ${CMAKE_CURRENT_LIST_DIR}/include/engine/gameobject/luna.hpp
     ${CMAKE_CURRENT_LIST_DIR}/include/engine/scene.hpp
     ${CMAKE_CURRENT_LIST_DIR}/include/engine/fbo.hpp
     ${CMAKE_CURRENT_LIST_DIR}/include/engine/geometry/cube.hpp
